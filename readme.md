@@ -1,30 +1,5 @@
-# sort-text-app
+# Sort text app
 
-*Work in progress.*
+Very simple app for very simple purpose - sort any given text by lines :)
 
-
-## Installation
-`npm i sort-text-app`
-
-## Usage
-
-```javascript
-
-const sortTextApp = require('sort-text-app');
-
-import  sortTextApp  from 'sort-text-app';
-
-```
-
-## Adding Preact
-1. Install packages:
-`npm i preact babel-plugin-transform-react-jsx`
-`npm i -D eslint-plugin-react`
-2. Modify `tools/webpack.config.js`. Add option to javascript loader:
-```javascript
-  plugins: [
-    ['transform-react-jsx', {
-      pragma: 'h'
-    }]
-]
-```
+Go to https://autioch.github.io/sort-text-app to use it.
